@@ -1,0 +1,16 @@
+header {
+	background: #4AAAA5;
+	width: 200px;
+	color: white;
+	float: left;
+	text-align: center;
+
+}
+
+nav {
+	float:right;
+}
+
+main {
+	clear: both;
+}
