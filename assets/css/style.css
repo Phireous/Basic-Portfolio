@@ -34,6 +34,16 @@ main {
 	float: left;
 }
 
+.info {
+	clear: both;
+	float: left;
+}
+
+.portfolio {
+	clear: both;
+	float: left;
+}
+
 footer {
 	clear: both;
 	background: #666;
