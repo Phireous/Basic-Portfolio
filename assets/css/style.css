@@ -1,4 +1,13 @@
+body {
+	background: #EEE;
+}
+
 header {
+	background: white;
+	width: 100%;
+}
+
+h1 {
 	background: #4AAAA5;
 	width: 200px;
 	color: white;
@@ -13,4 +22,20 @@ nav {
 
 main {
 	clear: both;
+	float: left;
+	width: 60%;
+}
+
+#picture {
+	float:left;
+}
+
+.connect {
+	float: left;
+}
+
+footer {
+	clear: both;
+	background: #666;
+	color: #777777;
 }
