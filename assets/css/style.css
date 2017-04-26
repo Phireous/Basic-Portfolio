@@ -89,7 +89,7 @@ main {
 	width: 50%;
 	background-color: white;
 	padding: 25px;
-	margin: 50px;
+	margin: 25px;
 	border-style: solid;
 	border-color: #dcdcdc;
 	border-width: 1px;
@@ -106,12 +106,20 @@ main {
 	background-color: white;
 	padding: 10px 30px 30px 30px;
 	border: 1px solid #dcdcdc;
-	margin: 50px;
+	margin: 25px;
 }
 
 .info {
 	clear: both;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	float: left;
+	background-color: white;
+	width: 40%;
+	padding: 10px 30px 30px 30px;
+}
+
+form {
+	width: 300px;
 }
 
 .portfolio {
