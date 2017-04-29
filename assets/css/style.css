@@ -1,22 +1,27 @@
 body {
-	background: #EEE;
+	background-image: url(../images/cork-wallet.png);
 	margin: 0px;
 }
 
 .wrapper {
-	width: 960px;
 	margin: 0 auto;
+	width: 960px;
 }
 
 header {
 	background-color: white;
 	border-bottom-style: solid;
-	border-bottom-color: #777;
+	border-bottom-color: #ccc;
 	border-bottom-width: 3px;
 	float: left;
-	width: 960px;
+	width: 100%;
 	position: fixed;
 	z-index: 2;
+}
+
+.headfix {
+	margin: 0 auto;
+	width: 960px;
 }
 
 h1 {
@@ -45,13 +50,13 @@ nav a:visited, a:link {
 #portfolio {
     border-left-style: solid;
     border-left-width: 1px;
-    border-left-color: #fbfbfb;
+    border-left-color: #777;
     padding: 13px;
     padding-top: 1px;
     padding-bottom: 1px;
     border-right-style: solid;
     border-right-width: 1px;
-    border-right-color: #fbfbfb;
+    border-right-color: #777;
 }
 
 #about {
@@ -59,7 +64,7 @@ nav a:visited, a:link {
 }
 
 #contact {
-	padding: 13px;
+	padding-left: 13px;
 }
 
 h2, h3 {
@@ -79,7 +84,7 @@ h2 {
 h3 {
 	border-bottom: 1px solid #dcdcdc;
 	padding-bottom: 20px;
-	margin-left: 25px;
+	margin: 20px auto;
 	width: 200px;
 	font-size: 21px;
 }
@@ -89,7 +94,8 @@ p {
 	font-size: 1.2em;
 	line-height: 150%;
 	width: 600px;
-	padding-left: 25px;
+	margin: 0 auto;
+	margin-bottom: 20px;
 }
 
 p, footer {
@@ -107,7 +113,7 @@ main {
 	width: 650px;
 	background-color: white;
 	border-style: solid;
-	border-color: #dcdcdc;
+	border-color: #ddd;
 	border-width: 1px;
 	margin-right: 36px;
 	margin-bottom: 25px;
@@ -119,8 +125,8 @@ main {
 }
 
 .connect-link{
-	width: 200px;
-	margin-left: 40px;
+	width: 178px;
+	margin: 0 auto;
 	padding-bottom: 20px;
 }
 
@@ -214,7 +220,7 @@ button {
 
 footer {
 	clear: both;
-	width: 960px;
+	width: 100%;
 	background: #666;
 	color: #777777;
 	text-align: center;
