@@ -1,6 +1,7 @@
 body {
 	background-image: url(../images/cork-wallet.png);
 	margin: 0px;
+	height: 100%;
 }
 
 .wrapper {
@@ -19,7 +20,7 @@ header {
 	z-index: 2;
 }
 
-.headfix {
+.headfix{
 	margin: 0 auto;
 	width: 960px;
 }
@@ -116,7 +117,7 @@ main {
 	border-color: #ddd;
 	border-width: 1px;
 	margin-right: 36px;
-	margin-bottom: 25px;
+	margin-bottom: 40px;
 }
 
 #picture {
